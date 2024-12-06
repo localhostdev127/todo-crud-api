@@ -1,0 +1,77 @@
+[
+  {
+    "title": "Buy groceries",
+    "description": "Milk, bread, and eggs",
+    "completed": false
+  },
+  {
+    "title": "Walk the dog",
+    "description": "Take Bruno for a walk in the park",
+    "completed": true
+  },
+  {
+    "title": "Read a book",
+    "description": "Finish reading 'Atomic Habits'",
+    "completed": false
+  },
+  {
+    "title": "Write a blog post",
+    "description": "Draft the next article on JavaScript tips",
+    "completed": false
+  },
+  {
+    "title": "Clean the house",
+    "description": "Vacuum and mop the floors",
+    "completed": false
+  },
+  {
+    "title": "Pay electricity bill",
+    "description": "Pay the outstanding electricity bill online",
+    "completed": true
+  },
+  {
+    "title": "Call mom",
+    "description": "Check in with mom and catch up",
+    "completed": true
+  },
+  {
+    "title": "Workout",
+    "description": "Complete a 30-minute HIIT session",
+    "completed": false
+  },
+  {
+    "title": "Fix the faucet",
+    "description": "Repair the leaking kitchen faucet",
+    "completed": false
+  },
+  {
+    "title": "Plan vacation",
+    "description": "Research and plan the upcoming vacation",
+    "completed": true
+  },
+  {
+    "title": "Study TypeScript",
+    "description": "Review TypeScript generics and utility types",
+    "completed": false
+  },
+  {
+    "title": "Prepare presentation",
+    "description": "Create slides for the upcoming team meeting",
+    "completed": false
+  },
+  {
+    "title": "Respond to emails",
+    "description": "Reply to all pending emails",
+    "completed": true
+  },
+  {
+    "title": "Attend webinar",
+    "description": "Join the webinar on web performance optimization",
+    "completed": false
+  },
+  {
+    "title": "Backup files",
+    "description": "Backup all important documents to the cloud",
+    "completed": true
+  }
+]

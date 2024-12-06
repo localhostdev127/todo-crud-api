@@ -1,0 +1,30 @@
+version: "3.9"
+
+services:
+  backend:
+    container_name: api-gatway
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+    env_file:
+      - .prod.env
+    depends_on:
+      - mongodb
+  database:
+    image: mongo:5.0
+    container_name: mongo-db
+    ports:
+      - "27017:27017"
+    environment:
+      MONGO_INITDB_DATABASE: chat_db
+    env_file:
+      - .db.prod.env
+    volumes:
+      - mongo_data:/data/db
+
+volumes:
+  mongo_data:

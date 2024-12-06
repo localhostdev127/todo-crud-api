@@ -1,0 +1,49 @@
+# Node.js dependencies
+node_modules/
+dist/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Typescript
+*.tsbuildinfo
+
+# Environment variables
+.env
+.env.*.local
+
+# Debugger configurations
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Build and package directories
+build/
+coverage/
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.bak
+
+# NPM cache
+.npm/
+
+# Yarn Berry cache
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# Output of npm pack
+*.tgz
